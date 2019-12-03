@@ -2,6 +2,7 @@
 #include <QDebug>
 #include "set"
 #include "class1.h"
+#include "driver/class2.h"
 
 int main(int argc, char *argv[])
 {
@@ -13,5 +14,6 @@ int main(int argc, char *argv[])
 
     qDebug() << "hello qt";
     class1 class11;
+    class2 class22;
     return a.exec();
 }
