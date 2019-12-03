@@ -1,6 +1,7 @@
 #include <QCoreApplication>
 #include <QDebug>
 #include "set"
+#include "class1.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,5 +12,6 @@ int main(int argc, char *argv[])
     std::map<int, std::string> m = { {1, "a"}, {2, "b"} };
 
     qDebug() << "hello qt";
+    class1 class11;
     return a.exec();
 }
