@@ -2,10 +2,10 @@
 #define CLASS1_H
 
 
-class class1
+class Test
 {
 public:
-    class1();
+    Test();
 };
 
 #endif // CLASS1_H
